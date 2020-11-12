@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AssessmentSuite">
+  <test thread-count="5" name="AssessmentTestScripts">
+    <classes>
+      <class name="TestScripts.DynamicLoadingTest"/>
+      <class name="TestScripts.LinksHomePageTest"/>
+      <class name="TestScripts.LoadingEx2Test"/>
+      <class name="TestScripts.FormAuthenticationTest"/>
+      <class name="TestScripts.JsAlertsTest"/>
+    </classes>
+  </test> <!-- AssessmentTestScripts -->
+</suite> <!-- AssessmentSuite -->
